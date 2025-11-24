@@ -15,6 +15,8 @@ Fake news detection is a challenging problem because AI models often fail with n
    * GNews live articles
    * Google Fact Check API
 
+(Use your own API KEY)
+
 The hybrid logic combines all three sources to produce a more reliable final verdict.
 
 ## 2. Dataset Used
@@ -163,5 +165,6 @@ streamlit run streamlit_app.py
 * Include more news APIs for better verification.
 * Add better UI/UX for the Streamlit application.
 * Deploy the system online.
+
 
 
