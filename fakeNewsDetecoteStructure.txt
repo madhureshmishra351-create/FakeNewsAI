@@ -1,0 +1,42 @@
+fake-news-distilbert/
+│
+├── data/
+│   ├── Fake.csv
+│   ├── True.csv
+│   └── merged.csv
+│
+├── src/
+│   ├── preprocess.py
+│   ├── dataset.py
+│   ├── train_distilbert.py
+|    ├── online_verify.py  
+│   ├── predict.py
+│   └── utils.py
+│
+├── models/
+│   ├── best_model/
+│   │     ├── config.json
+│   │     ├── pytorch_model.bin
+│   │     ├── tokenizer.json
+│   │     ├── vocab.txt
+│   │     ├── special_tokens_map.json
+│   │     ├── tokenizer_config.json
+│   │     └── added_tokens.json (optional)
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── requirements.txt
+└── README.md
+
+
+torch
+transformers
+pandas
+numpy
+scikit-learn
+tqdm
+matplotlib
+seaborn
+streamlit
+
